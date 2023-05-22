@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
-using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
+using BasketCommerce.Application.TodoLists.Queries.ExportTodos;
 using CsvHelper.Configuration;
 
-namespace CleanArchitecture.Infrastructure.Files.Maps;
+namespace BasketCommerce.Infrastructure.Files.Maps;
 
 public class TodoItemRecordMap : ClassMap<TodoItemRecord>
 {

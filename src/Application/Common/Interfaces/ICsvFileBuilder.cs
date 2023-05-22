@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
+﻿using BasketCommerce.Application.TodoLists.Queries.ExportTodos;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace BasketCommerce.Application.Common.Interfaces;
 
 public interface ICsvFileBuilder
 {

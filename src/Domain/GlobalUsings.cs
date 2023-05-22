@@ -1,6 +1,6 @@
-﻿global using CleanArchitecture.Domain.Common;
-global using CleanArchitecture.Domain.Entities;
-global using CleanArchitecture.Domain.Enums;
-global using CleanArchitecture.Domain.Events;
-global using CleanArchitecture.Domain.Exceptions;
-global using CleanArchitecture.Domain.ValueObjects;
+﻿global using BasketCommerce.Domain.Common;
+global using BasketCommerce.Domain.Entities;
+global using BasketCommerce.Domain.Enums;
+global using BasketCommerce.Domain.Events;
+global using BasketCommerce.Domain.Exceptions;
+global using BasketCommerce.Domain.ValueObjects;

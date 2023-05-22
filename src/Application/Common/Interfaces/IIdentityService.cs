@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using BasketCommerce.Application.Common.Models;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace BasketCommerce.Application.Common.Interfaces;
 
 public interface IIdentityService
 {

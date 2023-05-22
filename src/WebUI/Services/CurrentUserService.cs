@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
 
-using CleanArchitecture.Application.Common.Interfaces;
+using BasketCommerce.Application.Common.Interfaces;
 
-namespace CleanArchitecture.WebUI.Services;
+namespace BasketCommerce.WebUI.Services;
 
 public class CurrentUserService : ICurrentUserService
 {

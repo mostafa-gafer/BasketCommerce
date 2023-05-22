@@ -1,12 +1,12 @@
 ﻿using System.Runtime.Serialization;
 using AutoMapper;
-using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
-using CleanArchitecture.Domain.Entities;
+using BasketCommerce.Application.Common.Mappings;
+using BasketCommerce.Application.Common.Models;
+using BasketCommerce.Application.TodoLists.Queries.GetTodos;
+using BasketCommerce.Domain.Entities;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Mappings;
+namespace BasketCommerce.Application.UnitTests.Common.Mappings;
 
 public class MappingTests
 {

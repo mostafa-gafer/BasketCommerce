@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using BasketCommerce.Application.Common.Exceptions;
+using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.DeleteTodoList;
+namespace BasketCommerce.Application.TodoLists.Commands.DeleteTodoList;
 
 public record DeleteTodoListCommand(int Id) : IRequest;
 

@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>CleanArchitecture.Infrastructure</RootNamespace>
-        <AssemblyName>CleanArchitecture.Infrastructure</AssemblyName>
+        <RootNamespace>BasketCommerce.Infrastructure</RootNamespace>
+        <AssemblyName>BasketCommerce.Infrastructure</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests;
+namespace BasketCommerce.Application.IntegrationTests;
 
 using static Testing;
 

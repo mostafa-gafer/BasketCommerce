@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.TodoLists.Commands.CreateTodoList;
-using CleanArchitecture.Application.TodoLists.Commands.DeleteTodoList;
-using CleanArchitecture.Domain.Entities;
+﻿using BasketCommerce.Application.Common.Exceptions;
+using BasketCommerce.Application.TodoLists.Commands.CreateTodoList;
+using BasketCommerce.Application.TodoLists.Commands.DeleteTodoList;
+using BasketCommerce.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests.TodoLists.Commands;
+namespace BasketCommerce.Application.IntegrationTests.TodoLists.Commands;
 
 using static Testing;
 

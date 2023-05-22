@@ -1,14 +1,14 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItemDetail;
-using CleanArchitecture.Application.TodoLists.Commands.CreateTodoList;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Enums;
+﻿using BasketCommerce.Application.Common.Exceptions;
+using BasketCommerce.Application.TodoItems.Commands.CreateTodoItem;
+using BasketCommerce.Application.TodoItems.Commands.UpdateTodoItem;
+using BasketCommerce.Application.TodoItems.Commands.UpdateTodoItemDetail;
+using BasketCommerce.Application.TodoLists.Commands.CreateTodoList;
+using BasketCommerce.Domain.Entities;
+using BasketCommerce.Domain.Enums;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests.TodoItems.Commands;
+namespace BasketCommerce.Application.IntegrationTests.TodoItems.Commands;
 
 using static Testing;
 

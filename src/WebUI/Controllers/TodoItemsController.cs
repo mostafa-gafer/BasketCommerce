@@ -1,14 +1,14 @@
-﻿using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.DeleteTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItem;
-using CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItemDetail;
-using CleanArchitecture.Application.TodoItems.Queries.GetTodoItemsWithPagination;
+﻿using BasketCommerce.Application.Common.Models;
+using BasketCommerce.Application.TodoItems.Commands.CreateTodoItem;
+using BasketCommerce.Application.TodoItems.Commands.DeleteTodoItem;
+using BasketCommerce.Application.TodoItems.Commands.UpdateTodoItem;
+using BasketCommerce.Application.TodoItems.Commands.UpdateTodoItemDetail;
+using BasketCommerce.Application.TodoItems.Queries.GetTodoItemsWithPagination;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
-namespace CleanArchitecture.WebUI.Controllers;
+namespace BasketCommerce.WebUI.Controllers;
 
 [Authorize]
 public class TodoItemsController : ApiControllerBase

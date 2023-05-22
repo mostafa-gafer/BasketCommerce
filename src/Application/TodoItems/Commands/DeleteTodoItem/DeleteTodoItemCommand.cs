@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Events;
+﻿using BasketCommerce.Application.Common.Exceptions;
+using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Domain.Entities;
+using BasketCommerce.Domain.Events;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.DeleteTodoItem;
+namespace BasketCommerce.Application.TodoItems.Commands.DeleteTodoItem;
 
 public record DeleteTodoItemCommand(int Id) : IRequest;
 

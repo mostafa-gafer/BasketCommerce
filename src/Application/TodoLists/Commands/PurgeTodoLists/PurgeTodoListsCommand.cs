@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Security;
+﻿using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Application.Common.Security;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.PurgeTodoLists;
+namespace BasketCommerce.Application.TodoLists.Commands.PurgeTodoLists;
 
 [Authorize(Roles = "Administrator")]
 [Authorize(Policy = "CanPurge")]

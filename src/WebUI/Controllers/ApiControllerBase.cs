@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.WebUI.Filters;
+﻿using BasketCommerce.WebUI.Filters;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchitecture.WebUI.Controllers;
+namespace BasketCommerce.WebUI.Controllers;
 
 [ApiController]
 [ApiExceptionFilter]

@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using BasketCommerce.Application.Common.Interfaces;
 
-namespace CleanArchitecture.Infrastructure.Services;
+namespace BasketCommerce.Infrastructure.Services;
 
 public class DateTimeService : IDateTime
 {

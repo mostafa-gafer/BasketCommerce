@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.ValueObjects;
+﻿using BasketCommerce.Application.TodoLists.Queries.GetTodos;
+using BasketCommerce.Domain.Entities;
+using BasketCommerce.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests.TodoLists.Queries;
+namespace BasketCommerce.Application.IntegrationTests.TodoLists.Queries;
 
 using static Testing;
 

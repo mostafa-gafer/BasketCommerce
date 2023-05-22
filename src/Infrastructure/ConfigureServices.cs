@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Files;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.Infrastructure.Persistence.Interceptors;
-using CleanArchitecture.Infrastructure.Services;
+﻿using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Infrastructure.Files;
+using BasketCommerce.Infrastructure.Identity;
+using BasketCommerce.Infrastructure.Persistence;
+using BasketCommerce.Infrastructure.Persistence.Interceptors;
+using BasketCommerce.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +20,7 @@ public static class ConfigureServices
         if (configuration.GetValue<bool>("UseInMemoryDatabase"))
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseInMemoryDatabase("CleanArchitectureDb"));
+                options.UseInMemoryDatabase("BasketCommerceDb"));
         }
         else
         {

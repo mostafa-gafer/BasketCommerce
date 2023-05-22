@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Events;
+﻿using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Domain.Entities;
+using BasketCommerce.Domain.Events;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+namespace BasketCommerce.Application.TodoItems.Commands.CreateTodoItem;
 
 public record CreateTodoItemCommand : IRequest<int>
 {

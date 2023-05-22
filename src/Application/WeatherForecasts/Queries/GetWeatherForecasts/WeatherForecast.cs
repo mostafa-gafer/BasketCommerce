@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.WeatherForecasts.Queries.GetWeatherForecasts;
+﻿namespace BasketCommerce.Application.WeatherForecasts.Queries.GetWeatherForecasts;
 
 public class WeatherForecast
 {

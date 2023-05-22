@@ -1,15 +1,15 @@
 ﻿using System.Reflection;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence.Interceptors;
+using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Domain.Entities;
+using BasketCommerce.Infrastructure.Identity;
+using BasketCommerce.Infrastructure.Persistence.Interceptors;
 using Duende.IdentityServer.EntityFramework.Options;
 using MediatR;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace CleanArchitecture.Infrastructure.Persistence;
+namespace BasketCommerce.Infrastructure.Persistence;
 
 public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>, IApplicationDbContext
 {

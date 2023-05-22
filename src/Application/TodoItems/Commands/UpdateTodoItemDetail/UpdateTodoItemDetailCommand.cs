@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Enums;
+﻿using BasketCommerce.Application.Common.Exceptions;
+using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Domain.Entities;
+using BasketCommerce.Domain.Enums;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.UpdateTodoItemDetail;
+namespace BasketCommerce.Application.TodoItems.Commands.UpdateTodoItemDetail;
 
 public record UpdateTodoItemDetailCommand : IRequest
 {

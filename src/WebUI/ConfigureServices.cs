@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.WebUI.Services;
+﻿using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Infrastructure.Persistence;
+using BasketCommerce.WebUI.Services;
 using Microsoft.AspNetCore.Mvc;
 using NSwag;
 using NSwag.Generation.Processors.Security;
@@ -44,7 +44,7 @@ public static class ConfigureServices
             // Add the fluent validations schema processor
             configure.SchemaProcessors.Add(fluentValidationSchemaProcessor);
 
-            configure.Title = "CleanArchitecture API";
+            configure.Title = "BasketCommerce API";
             configure.AddSecurity("JWT", Enumerable.Empty<string>(), new OpenApiSecurityScheme
             {
                 Type = OpenApiSecuritySchemeType.ApiKey,

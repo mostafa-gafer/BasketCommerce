@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
+﻿using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Application.Common.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Infrastructure.Identity;
+namespace BasketCommerce.Infrastructure.Identity;
 
 public class IdentityService : IIdentityService
 {

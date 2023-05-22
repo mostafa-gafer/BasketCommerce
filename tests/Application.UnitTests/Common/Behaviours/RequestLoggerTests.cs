@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Behaviours;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+﻿using BasketCommerce.Application.Common.Behaviours;
+using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Application.TodoItems.Commands.CreateTodoItem;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Behaviours;
+namespace BasketCommerce.Application.UnitTests.Common.Behaviours;
 
 public class RequestLoggerTests
 {

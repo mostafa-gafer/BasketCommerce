@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Domain.Entities;
+﻿using BasketCommerce.Application.Common.Mappings;
+using BasketCommerce.Domain.Entities;
 
-namespace CleanArchitecture.Application.TodoLists.Queries.GetTodos;
+namespace BasketCommerce.Application.TodoLists.Queries.GetTodos;
 
 public class TodoListDto : IMapFrom<TodoList>
 {

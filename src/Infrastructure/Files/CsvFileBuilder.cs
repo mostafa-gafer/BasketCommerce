@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
-using CleanArchitecture.Infrastructure.Files.Maps;
+using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Application.TodoLists.Queries.ExportTodos;
+using BasketCommerce.Infrastructure.Files.Maps;
 using CsvHelper;
 
-namespace CleanArchitecture.Infrastructure.Files;
+namespace BasketCommerce.Infrastructure.Files;
 
 public class CsvFileBuilder : ICsvFileBuilder
 {

@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Domain.Entities;
+﻿using BasketCommerce.Application.Common.Mappings;
+using BasketCommerce.Domain.Entities;
 
-namespace CleanArchitecture.Application.Common.Models;
+namespace BasketCommerce.Application.Common.Models;
 
 // Note: This is currently just used to demonstrate applying multiple IMapFrom attributes.
 public class LookupDto : IMapFrom<TodoList>, IMapFrom<TodoItem>

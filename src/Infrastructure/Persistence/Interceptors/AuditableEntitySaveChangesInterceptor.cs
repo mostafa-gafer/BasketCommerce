@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Common;
+﻿using BasketCommerce.Application.Common.Interfaces;
+using BasketCommerce.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace CleanArchitecture.Infrastructure.Persistence.Interceptors;
+namespace BasketCommerce.Infrastructure.Persistence.Interceptors;
 
 public class AuditableEntitySaveChangesInterceptor : SaveChangesInterceptor
 {

@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Entities;
+﻿using BasketCommerce.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace BasketCommerce.Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {
